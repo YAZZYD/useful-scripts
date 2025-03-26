@@ -1,6 +1,7 @@
 import argparse
 from yt_dlp import YoutubeDL
-
+# pip install yt-dlp
+# usage: python3 youtube_playlist_downloader.py URL
 def download_playlist(url):
     ydl_opts = {
         'outtmpl': './Downloads/%(title)s.%(ext)s',
